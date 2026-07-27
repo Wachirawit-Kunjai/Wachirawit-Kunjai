@@ -17,4 +17,31 @@
 [![Profile Views](https://komarev.com/ghpvc/?username=wachirawit-kunjai&color=0077B6&style=for-the-badge&label=PROFILE+VIEWS)](https://github.com/wachirawit-kunjai)
 [![Followers](https://img.shields.io/github/followers/wachirawit-kunjai?style=for-the-badge&color=03045E&label=FOLLOWERS)](https://github.com/wachirawit-kunjai?tab=followers)
 [![Stars](https://img.shields.io/github/stars/wachirawit-kunjai?style=for-the-badge&color=0A192F&label=STARS)](https://github.com/wachirawit-kunjai?tab=repositories)
+
+<!-- 🐍 ส่วนเกมงูเลื้อนผ่าน Contributions Graph -->
+<h2 align="center">🎮 Contribution Snake Animation</h2>
+
+<div align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/wachirawit-kunjai/wachirawit-kunjai/output/github-contribution-grid-snake-dark.svg">
+    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/wachirawit-kunjai/wachirawit-kunjai/output/github-contribution-grid-snake.svg">
+    <img alt="github contribution grid snake animation" src="https://raw.githubusercontent.com/wachirawit-kunjai/wachirawit-kunjai/output/github-contribution-grid-snake.svg">
+  </picture>
+</div>
+
+<br /><hr /><br />
+
+<!-- 📊 การ์ดสถิติล้ำๆ โทน Dark Blue -->
+<h2 align="center">⚡ GitHub Analytics & Stats</h2>
+
+<div align="center">
+  <img src="https://github-readme-stats.vercel.app/api?username=wachirawit-kunjai&show_icons=true&theme=tokyonight&bg_color=0a192f&title_color=38bdf8&text_color=e2e8f0&border_color=1a237e" width="48%" />
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=wachirawit-kunjai&layout=compact&theme=tokyonight&bg_color=0a192f&title_color=38bdf8&text_color=e2e8f0&border_color=1a237e" width="48%" />
+</div>
+
+<br />
+
+<div align="center">
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=wachirawit-kunjai&theme=tokyonight&background=0a192f&ring=38bdf8&fire=38bdf8&currStreakLabel=38bdf8&border=1a237e" width="97%" />
+</div>
 </div>
