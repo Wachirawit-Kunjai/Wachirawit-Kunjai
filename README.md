@@ -20,10 +20,16 @@
 
 <!-- 🎮 ส่วนเกมงูเลื้อนสไตล์ Pixel Green -->
 
+<!-- 🎮 ส่วนเกมงูเลื้อนสไตล์ Pixel Retro คมกริบ -->
+<h2 align="center">👾 Pixel Snake Contribution Grid</h2>
+
+<!-- 🎮 ส่วนเกมงูเลื้อนสไตล์ Pixel Retro -->
+<h2 align="center">👾 Pixel Snake Contribution Grid</h2>
+
 <div align="center">
   <picture>
     <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/wachirawit-kunjai/wachirawit-kunjai/output/github-contribution-grid-snake-dark.svg">
     <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/wachirawit-kunjai/wachirawit-kunjai/output/github-contribution-grid-snake.svg">
-    <img alt="github contribution grid snake animation" src="https://raw.githubusercontent.com/wachirawit-kunjai/wachirawit-kunjai/output/github-contribution-grid-snake.svg" style="image-rendering: pixelated; image-rendering: crisp-edges;" />
+    <img alt="github contribution grid snake animation" src="https://raw.githubusercontent.com/wachirawit-kunjai/wachirawit-kunjai/output/github-contribution-grid-snake.svg" style="image-rendering: pixelated; image-rendering: crisp-edges; shape-rendering: crispEdges;" />
   </picture>
 </div>
