@@ -19,13 +19,17 @@
 [![Stars](https://img.shields.io/github/stars/wachirawit-kunjai?style=for-the-badge&color=0A192F&label=STARS)](https://github.com/wachirawit-kunjai?tab=repositories)
 
 <!-- 🎮 เกมงูเลื้อนทรง Pixel -->
-<h2 align="center">👾 Pixel Snake Contribution Grid</h2>
-
 <div align="center">
   <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/wachirawit-kunjai/wachirawit-kunjai/output/github-contribution-grid-snake-dark.svg">
-    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/wachirawit-kunjai/wachirawit-kunjai/output/github-contribution-grid-snake.svg">
-    <img alt="github contribution grid snake animation" src="https://raw.githubusercontent.com/wachirawit-kunjai/wachirawit-kunjai/output/github-contribution-grid-snake.svg" style="image-rendering: pixelated; image-rendering: crisp-edges; shape-rendering: crispEdges;" />
+    <source
+      media="(prefers-color-scheme: dark)"
+      srcset="https://raw.githubusercontent.com/wachirawit-kunjai/wachirawit-kunjai/output/github-con"https://raw.githubusercontent.com/wachirawit-kunjai/wachirawit-kunjai/output/github-contribution-grid-snake.svg"
+    />
+    <img
+      alt="GitHub Contribution Snake"
+      src="https://raw.githubusercontent.com/wachirawit-kunjai/wachirawit-kunjai/output/github-contribution-grid-snake-dark.svg"
+      style="image-rendering: pixelated; image-rendering: crisp-edges;"
+    />
   </picture>
 </div>
 
