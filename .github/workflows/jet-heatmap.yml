@@ -2,11 +2,12 @@ name: Generate GitHub Jet Heatmap
 
 on:
   schedule:
-    - cron: "0 */12 * * *" # รันอัปเดตอัตโนมัติทุกๆ 12 ชั่วโมง
-  workflow_dispatch: # ปุ่มกดรันเอง
-  push:
-    branches:
-      - main
+    # รันอัตโนมัติทุกๆ 12 ชั่วโมง
+    - cron: '0 */12 * * *'
+  workflow_dispatch: # ปุ่มกดรันเองด้วยมือ
+
+permissions:
+  contents: write
 
 jobs:
   build:
@@ -14,26 +15,33 @@ jobs:
     steps:
       - name: Checkout Repository
         uses: actions/checkout@v4
+        with:
+          token: ${{ secrets.GH_TOKEN }}
 
       - name: Setup Node.js
-        uses: actions/setup-node@v4
+        uses: actions/node-versions@v4
         with:
-          node-version: 20
+          node-version: '20'
 
-      - name: Clone Sushmitadasari Source
-        run: |
-          git clone https://github.com/Sushmitadasari/Sushmitadasari.git temp_src
-          cp temp_src/package*.json ./ 2>/dev/null || true
-          cp temp_src/generate.mjs ./ 2>/dev/null || true
+      - name: Clone Jet Heatmap Source
+        run: git clone https://github.com/Sushmitadasari/Sushmitadasari.git temp_src
 
       - name: Install Dependencies
-        run: npm install
+        run: |
+          cd temp_src
+          npm install
 
       - name: Generate Jet Heatmap SVG
         env:
           GH_USERNAME: ${{ github.repository_owner }}
           GH_TOKEN: ${{ secrets.GH_TOKEN }}
-        run: node generate.mjs
+          GITHUB_TOKEN: ${{ secrets.GH_TOKEN }}
+        run: |
+          cd temp_src
+          node generate.mjs
+          # ก๊อปปี้ไฟล์ SVG ออกมาวางข้างนอก
+          cp -r dist/../*.svg ../ 2>/dev/null || true
+          cp -r *.svg ../ 2>/dev/null || true
 
       - name: Commit and Push Generated SVGs
         uses: stefanzweifel/git-auto-commit-action@v5
