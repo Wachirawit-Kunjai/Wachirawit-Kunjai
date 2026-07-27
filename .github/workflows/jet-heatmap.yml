@@ -1,0 +1,42 @@
+name: Generate GitHub Jet Heatmap
+
+on:
+  schedule:
+    - cron: "0 */12 * * *" # รันอัปเดตอัตโนมัติทุกๆ 12 ชั่วโมง
+  workflow_dispatch: # ปุ่มกดรันเอง
+  push:
+    branches:
+      - main
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v4
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: 20
+
+      - name: Clone Sushmitadasari Source
+        run: |
+          git clone https://github.com/Sushmitadasari/Sushmitadasari.git temp_src
+          cp temp_src/package*.json ./ 2>/dev/null || true
+          cp temp_src/generate.mjs ./ 2>/dev/null || true
+
+      - name: Install Dependencies
+        run: npm install
+
+      - name: Generate Jet Heatmap SVG
+        env:
+          GH_USERNAME: ${{ github.repository_owner }}
+          GH_TOKEN: ${{ secrets.GH_TOKEN }}
+        run: node generate.mjs
+
+      - name: Commit and Push Generated SVGs
+        uses: stefanzweifel/git-auto-commit-action@v5
+        with:
+          commit_message: "chore: update GitHub Jet Heatmap animation"
+          file_pattern: "*.svg dist/*.svg"
