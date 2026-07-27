@@ -18,12 +18,7 @@
 [![Followers](https://img.shields.io/github/followers/wachirawit-kunjai?style=for-the-badge&color=03045E&label=FOLLOWERS)](https://github.com/wachirawit-kunjai?tab=followers)
 [![Stars](https://img.shields.io/github/stars/wachirawit-kunjai?style=for-the-badge&color=0A192F&label=STARS)](https://github.com/wachirawit-kunjai?tab=repositories)
 
-<!-- 🎮 ส่วนเกมงูเลื้อนสไตล์ Pixel Green -->
-
-<!-- 🎮 ส่วนเกมงูเลื้อนสไตล์ Pixel Retro คมกริบ -->
-<h2 align="center">👾 Pixel Snake Contribution Grid</h2>
-
-<!-- 🎮 ส่วนเกมงูเลื้อนสไตล์ Pixel Retro -->
+<!-- 🎮 เกมงูเลื้อนทรง Pixel -->
 <h2 align="center">👾 Pixel Snake Contribution Grid</h2>
 
 <div align="center">
@@ -33,3 +28,5 @@
     <img alt="github contribution grid snake animation" src="https://raw.githubusercontent.com/wachirawit-kunjai/wachirawit-kunjai/output/github-contribution-grid-snake.svg" style="image-rendering: pixelated; image-rendering: crisp-edges; shape-rendering: crispEdges;" />
   </picture>
 </div>
+
+<br /><hr /><br />
