@@ -17,6 +17,16 @@
 [![Profile Views](https://komarev.com/ghpvc/?username=wachirawit-kunjai&color=0077B6&style=for-the-badge&label=PROFILE+VIEWS)](https://github.com/wachirawit-kunjai)
 [![Followers](https://img.shields.io/github/followers/wachirawit-kunjai?style=for-the-badge&color=03045E&label=FOLLOWERS)](https://github.com/wachirawit-kunjai?tab=followers)
 [![Stars](https://img.shields.io/github/stars/wachirawit-kunjai?style=for-the-badge&color=0A192F&label=STARS)](https://github.com/wachirawit-kunjai?tab=repositories)
+</div>
+
+---
+
+### 🌌 About Me
+* 🧑‍💻 **Position:** Aspiring Software Engineer
+* 🎓 **Education:** **Software Engineering**, Rajamangala University of Technology Lanna (RMUTL)
+* 🎯 **Core Focus:** Software Development, **DevOps**, Containerization (Kubernetes), and Automation Systems
+* 🕹️ **Hobbies:** Hardware Customization & Windows Debloating
+
 
 <!-- 🎮 เกมงูเลื้อนทรง Pixel -->
 ---
