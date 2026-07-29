@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&theme=tokyonight&customColorList=1a237e,1a237e&height=200&section=header&text=WACHIRAWIT%20KUNJAI&fontSize=40&fontColor=fff&fontAlignY=38&animation=fadeIn" width="100%" />
+  <img src="https://capsule-render.vercel.app/api?type=waving&theme=tokyonight&customColorList=1a237e,1a237e&height=200&section=header&text=WACHIRAWIT%20KUNJAI&fontSize=40&fontColor=fff&fontAlignY=38&animation=fadeIn&duration=0.8" width="100%" />
 </p>
 
 <font face="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif">
