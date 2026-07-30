@@ -6,7 +6,7 @@ on:
   workflow_dispatch:
   push:
     branches:
-    - main
+      - main
 
 jobs:
   generate:
@@ -16,6 +16,10 @@ jobs:
     timeout-minutes: 5
     
     steps:
+      # เพิ่มขั้นตอน Checkout ดึงข้อมูลคลังลงมาก่อน
+      - name: Checkout Repository
+        uses: actions/checkout@v4
+
       - name: generate github-contribution-grid-snake.svg
         uses: Platane/snk/svg-only@v3
         with:
