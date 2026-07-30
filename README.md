@@ -43,10 +43,9 @@
 
 <!-- 🎮 เกมงูเลื้อนทรง Pixel -->
 ---
-<div align="center">
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/wachirawit-kunjai/wachirawit-kunjai/output/github-contribution-grid-snake-dark.svg">
-    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/wachirawit-kunjai/wachirawit-kunjai/output/github-contribution-grid-snake.svg">
-    <img alt="github contribution grid snake animation" src="https://raw.githubusercontent.com/wachirawit-kunjai/wachirawit-kunjai/output/github-contribution-grid-snake.svg" style="image-rendering: pixelated; shape-rendering: crispEdges;" />
-  </picture>
-</div>
+<!-- ตัวอย่างการใส่ใน README.md ที่ถูกต้อง -->
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Wachirawit-Kunjai/Wachirawit-Kunjai/output/github-contribution-grid-snake-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Wachirawit-Kunjai/Wachirawit-Kunjai/output/github-contribution-grid-snake.svg">
+  <img alt="github contribution grid snake animation" src="https://raw.githubusercontent.com/Wachirawit-Kunjai/Wachirawit-Kunjai/output/github-contribution-grid-snake.svg">
+</picture>
