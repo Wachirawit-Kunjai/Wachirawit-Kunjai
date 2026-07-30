@@ -1,28 +1,29 @@
-name: Generate Snake Contribution Animation
+name: Generate Snake Animation
 
 on:
   schedule:
-    - cron: "0 0 * * *" # รันอัปเดตอัตโนมัติทุกวัน
-  workflow_dispatch:     # กดสั่งรันเองได้ตลอดเวลา
+    - cron: "0 */12 * * *" 
+  workflow_dispatch:
+  push:
+    branches:
+    - main
 
 jobs:
   generate:
-    permissions:
+    permissions: 
       contents: write
     runs-on: ubuntu-latest
-    timeout-minutes: 10
-
+    timeout-minutes: 5
+    
     steps:
-      # ดึงข้อมูล Contribution มาสร้างไฟล์ SVG งูกินจุด
       - name: generate github-contribution-grid-snake.svg
         uses: Platane/snk/svg-only@v3
         with:
           github_user_name: ${{ github.repository_owner }}
           outputs: |
-            dist/github-contribution-grid-snake.svg
-            dist/github-contribution-grid-snake-dark.svg?palette=github-dark
+            dist/github-contribution-grid-snake.svg?color_snake=%2300FF66&color_dots=%23161b22,%230e4429,%23006d32,%2326a641,%2339d353
+            dist/github-contribution-grid-snake-dark.svg?color_snake=%2300FF66&color_dots=%23161b22,%230e4429,%23006d32,%2326a641,%2339d353
 
-      # Push ไฟล์ SVG ไปยัง branch output
       - name: push github-contribution-grid-snake.svg to the output branch
         uses: crazy-max/ghaction-github-pages@v3.1.0
         with:
