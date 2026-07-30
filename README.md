@@ -32,7 +32,7 @@
 ### 🛠️ Tech Stack & Digital Tools
 
 #### 🔹 Programming & Web Frontend 
-<img src="https://img.shields.io/badge/HTML5-0d1b2a?style=for-the-badge&logo=html5&logoColor=e5c158"/> <img src="https://img.shields.io/badge/CSS3-0d1b2a?style=for-the-badge&logo=css3&logoColor=e5c158"/> <img src="https://img.shields.io/badge/JavaScript-0d1b2a?style=for-the-badge&logo=javascript&logoColor=e5c158"/> <img src="https://img.shields.io/badge/Python-0d1b2a?style=for-the-badge&logo=python&logoColor=e5c158"/>
+<img src="https://img.shields.io/badge/HTML5-0d1b2a?style=for-the-badge&logo=html5&logoColor=e5c158"/> <img src="https://img.shields.io/badge/C/CSS-0d1b2a?style=for-the-badge&logo=css3&logoColor=e5c158"/> <img src="https://img.shields.io/badge/JavaScript-0d1b2a?style=for-the-badge&logo=javascript&logoColor=e5c158"/> <img src="https://img.shields.io/badge/Python-0d1b2a?style=for-the-badge&logo=python&logoColor=e5c158"/>
 
 #### 🔹 DevOps & Core Infrastructure
 <img src="https://img.shields.io/badge/Docker-0d1b2a?style=for-the-badge&logo=docker&logoColor=e5c158"/> <img src="https://img.shields.io/badge/Kubernetes-0d1b2a?style=for-the-badge&logo=kubernetes&logoColor=e5c158"/> <img src="https://img.shields.io/badge/Linux-0d1b2a?style=for-the-badge&logo=linux&logoColor=e5c158"/>
