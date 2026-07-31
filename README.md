@@ -16,7 +16,7 @@
 
 [![Profile Views](https://komarev.com/ghpvc/?username=wachirawit-kunjai&color=0077B6&style=for-the-badge&label=PROFILE+VIEWS)](https://github.com/wachirawit-kunjai)
 [![Followers](https://img.shields.io/github/followers/wachirawit-kunjai?style=for-the-badge&color=03045E&label=FOLLOWERS)](https://github.com/wachirawit-kunjai?tab=followers)
-[![Repositories](https://img.shields.io/github/repositories/wachirawit-kunjai?style=for-the-badge&color=0A192F&label=REPOSITORIES)](https://github.com/wachirawit-kunjai?tab=repositories)
+[![Repositories](https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fapi.github.com%2Fusers%2Fwachirawit-kunjai&query=%24.public_repos&label=REPOSITORIES&style=for-the-badge&color=0A192F)](https://github.com/wachirawit-kunjai?tab=repositories)
 </div>
 
 ---
