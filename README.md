@@ -41,9 +41,8 @@
 <img src="https://img.shields.io/badge/GitHub-0d1b2a?style=for-the-badge&logo=github&logoColor=e5c158"/> <img src="https://img.shields.io/badge/Google%20AI-0d1b2a?style=for-the-badge&logo=google&logoColor=e5c158"/>
 
 
-<!-- 🎮 เกมงูเลื้อนทรง Pixel -->
+<!--  เกมงู-->
 ---
-<!-- ตัวอย่างการใส่ใน README.md ที่ถูกต้อง -->
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Wachirawit-Kunjai/Wachirawit-Kunjai/output/github-contribution-grid-snake-dark.svg">
   <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Wachirawit-Kunjai/Wachirawit-Kunjai/output/github-contribution-grid-snake.svg">
